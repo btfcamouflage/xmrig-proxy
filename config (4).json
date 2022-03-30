@@ -1,0 +1,35 @@
+{
+    "access-log-file": null,
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        "0.0.0.0:3333"
+    ],
+    "colors": true,
+    "donate-level": 1,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "url": "randomxmonero.eu-west.nicehash.com:3380",
+            "user": "3Q4L5TgarU8kMePwNBhRmEn8RgvmaPJDkV.launchdeck",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "retries": 3,
+    "retry-pause": 1,
+    "syslog": false,
+    "verbose": false,
+    "workers": true
+}
